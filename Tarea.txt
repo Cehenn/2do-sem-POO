@@ -1,0 +1,6 @@
+Desarrollar una clase que representa un punto en el plano y tenga los sig metodos:
+
+cargar los valores de x y y, imprimir en que cuadrante se encuentra dicho punto(concepto matematico )
+
+
+

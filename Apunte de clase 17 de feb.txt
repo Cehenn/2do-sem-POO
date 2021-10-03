@@ -1,0 +1,44 @@
+Confeccionar una classe que permita cargar el nombre y la edad de una persona.
+Mostrar los datos cargados .imprimir un mensaje si es mayor de edad ( edad >=18 ).
+
+Codigo: 
+
+public class persona 
+
+{
+	private Scanner Teclado;
+	private String nombre;
+	private int edad;
+
+	public void inicializar()
+	{
+	teclado=new Scanner(System.in);
+	System.out.println("Ingrese nombre: ");
+	nombre=teclado.next();
+	System.out.println("Ingrese edad: ");
+	edad=teclado.next();
+	}
+
+	
+	public void imprimir()
+	{
+	System.out.prinln("Nombre: "+nombre);
+	System.out.println("Edad: "+edad);
+	}
+
+	public void esMayorEdad()
+	{
+	if(edad>=18)
+	System.out.println(nombre+ "es mayor de edad");
+	else
+	System.out.println(nombre+ "no es mayor de edad");
+	}
+
+	public static void main(String []args)
+	{
+	Persona persona1;
+	personal= new Persona;
+	personal.inicializar();
+	personal.imprimir();
+	personal.esMayorEdad();
+	}
